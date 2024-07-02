@@ -1,0 +1,77 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Cor de fundo */
+}
+
+header {
+    background-color: #005a9c; /* Azul escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que as seções se ajustem conforme a tela */
+    gap: 20px; /* Espaço entre as seções */
+    justify-content: center; /* Centraliza as seções horizontalmente */
+}
+
+.section {
+    flex: 1 1 300px; /* Cresce, mas não encolhe abaixo de 300px */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para as seções */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    color: #005a9c; /* Azul escuro para cabeçalhos */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.card {
+    background-color: #f9f9f9; /* Fundo cinza claro para cards */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    color: #333; /* Cor do título */
+    margin-top: 0;
+}
+
+.card-content p {
+    color: #666; /* Cor do texto */
+}
+
+.card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #005a9c; /* Cor do link */
+    text-decoration: none;
+    font-weight: bold; /* Texto em negrito */
+}
+
+.card-content a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
